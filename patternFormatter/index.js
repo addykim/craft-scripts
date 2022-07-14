@@ -14,8 +14,7 @@ const removeIrrelevantSizes = str => {
 const format = text => {
   return text.split('\n')
     .filter(str => str)
-    .map(str => removeIrrelevantSizes(str))
-    .join('');
+    .map(str => removeIrrelevantSizes(str));
 };
 
 module.exports = format;
