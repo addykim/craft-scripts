@@ -1,0 +1,22 @@
+{
+  "name": "craft-scripts",
+  "version": "1.0.0",
+  "description": "Misc scripts I used to make crafting easier",
+  "main": "patternFormatter.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addykim/craft-scripts.git"
+  },
+  "author": "Addy Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addykim/craft-scripts/issues"
+  },
+  "homepage": "https://github.com/addykim/craft-scripts#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
